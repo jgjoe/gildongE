@@ -68,11 +68,11 @@ OpenAPI 3.0으로 요청·응답과 오류 응답을 적어 두고 그것을 기
 여기서 확인할 수 있는 제 기여 범위는 **차량 도메인 백엔드, MongoDB 문서 모델, 사용자·카카오 로그인 흐름,
 주행 데이터 집계**입니다.
 
-> RAG를 직접 구축한 사례는 [benefit-compass](https://github.com/crushonyou2/benefit-compass)에 있습니다 —
+> RAG를 직접 구축한 사례는 [benefit-compass](https://github.com/jgjoe/benefit-compass)에 있습니다 —
 > 임베딩·벡터검색·리랭킹·생성을 직접 구성하고 60문항 평가셋으로 검색 품질을 측정했습니다.
 
 > 이 백엔드에 **SSE 기반 실시간 알림**을 얹은 확장본은 별도 저장소
-> [gil_ALERT](https://github.com/crushonyou2/gil_ALERT)에 있습니다.
+> [gil_ALERT](https://github.com/jgjoe/gil_ALERT)에 있습니다.
 
 ## 기술 스택
 
@@ -105,11 +105,11 @@ API 문서: `gildongE/src/main/resources/static/openapi.yaml`
 - **학기 프로젝트 프로토타입입니다.** 카카오 사용자 조회·등록까지 구현했고 JWT 발급과 사용자별 인가 정책은 넣지 않았습니다(`SecurityConfig` 전체 허용). 운영 환경이라면 토큰 기반 인증이 선행되어야 합니다.
 - 성능·부하 지표는 측정하지 않았습니다.
 - 이 저장소에는 배포 설정이 없습니다. 실행은 로컬 기준이고, 팀 시연 환경 구성은 저장소 밖에서 이뤄졌습니다.
-- 측정한 수치가 있는 프로젝트는 위 benefit-compass와 [Fridge-D-Day](https://github.com/crushonyou2/Fridge-D-Day)입니다.
+- 측정한 수치가 있는 프로젝트는 위 benefit-compass와 [Fridge-D-Day](https://github.com/jgjoe/Fridge-D-Day)입니다.
 
 ## 만든 사람
 
 **Jigwan Joe** — Backend
 
-- GitHub: [@crushonyou2](https://github.com/crushonyou2)
+- GitHub: [@jgjoe](https://github.com/jgjoe)
 - Email: jigwan.joe@gmail.com
